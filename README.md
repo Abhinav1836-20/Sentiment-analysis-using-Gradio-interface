@@ -12,10 +12,12 @@ The notebook defines two prediction functions—one for detecting detailed emoti
 
 
 
-The app is launched using demo.launch(), allowing users to instantly test real-time classification of any text they provide.
-
 A Gradio interface is created to make the system interactive, including a text input box, output fields for both emotion and mental-health categories, and JSON displays of class probabilities.
 
 
 
 Finally, the notebook integrates both models into a single user interface, allowing users to type any sentence and instantly receive both emotional interpretation and mental-health-related label predictions in a simple, accessible web-based app.
+
+
+
+The app is launched using demo.launch(), allowing users to instantly test real-time classification of any text they provide.
