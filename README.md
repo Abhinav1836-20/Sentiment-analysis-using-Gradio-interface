@@ -11,6 +11,9 @@ It also loads a second transformer model (bhadresh-savani/distilbert-base-uncase
 The notebook defines two prediction functions—one for detecting detailed emotions and another for identifying broader emotional or mental-state patterns. These functions handle tokenization, model inference, softmax scoring, and error management.
 
 
+
+The app is launched using demo.launch(), allowing users to instantly test real-time classification of any text they provide.
+
 A Gradio interface is created to make the system interactive, including a text input box, output fields for both emotion and mental-health categories, and JSON displays of class probabilities.
 
 
